@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.registration-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.registration-form h1 {
+    text-align: center;
+    color: #1b9c85;
+}
+
+.registration-form form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.registration-form form input[type="text"],
+.registration-form form input[type="email"],
+.registration-form form textarea,
+.registration-form form select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.registration-form form .gender-options {
+    display: flex;
+    margin-top: 5px;
+}
+
+.registration-form form .interests {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 5px;
+}
+
+.registration-form form button[type="submit"] {
+    background-color: #1b9c85;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.registration-form form button[type="submit"]:hover {
+    background-color: #1b9c85;
+}
+
+.error {
+    background-color: #fff3cd; 
+    border: 1px solid #ffc107; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/sell.css">
+    <title>Chức năng bán hàng - 2HandShop</title>
+</head>
+<body>
+    <div class="header">
+        <h1>2HandShop</h1>
+        <p>Chất lượng - Dịch vụ - Trải nghiệm</p>
+    </div>
+
+    <div class="container-body">
+       
+        <table>
+            <caption>CÁC SẢN PHẨM</caption>
+            <caption> 
+            <div class="select-price">
+                <select name="select=price" id="select-price">
+                    <option value=0>0 - 100</option>
+                    <option value=1>100 - 200</option>
+                    <option value=2>200 - 300</option>
+                </select>
+            </div>
+            </caption>
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="chonhet"></th>
+                    <th>Tên sản phẩm</th>
+                    <th>Gía</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="row-product">
+                    <td><input type="checkbox" class="item-checkbox"></td>
+                    <td>Áo hoa</td>
+                    <td data-price="1200" class="price">120 </td>
+                    <td><input type="number" class="quantity-input" ></td>
+                    <td class="total-price">0 </td> 
+                </tr>
+                <tr class="row-product">
+                    <td><input type="checkbox" class="item-checkbox"></td>
+                    <td>Váy hoa</td>
+                    <td data-price="1200" class="price">80 </td>
+                    <td><input type="number" class="quantity-input"></td>
+                    <td class="total-price">0 </td>
+                </tr>
+                <tr class="row-product">
+                    <td><input type="checkbox" class="item-checkbox"></td>
+                    <td>Quần Jean</td>
+                    <td data-price="1200" class="price">250 </td>
+                    <td><input type="number" class="quantity-input"> </td>
+                    <td class="total-price">0 </td>
+                </tr>
+                <tr class="row-product">
+                    <td><input type="checkbox" class="item-checkbox"></td>
+                    <td>Quần short</td>
+                    <td data-price="1200" class="price">300 </td>
+                    <td><input type="number" class="quantity-input"></td>
+                    <td class="total-price">0 </td>
+                </tr>
+                <tr class="row-product">
+                    <td><input type="checkbox" class="item-checkbox"></td>
+                    <td>Mũ lưỡi trai</td>
+                    <td data-price="1200" class="price">200 </td>
+                    <td><input type="number" class="quantity-input"></td>
+                    <td class="total-price">0 </td>
+                </tr>
+                <tr class="row-product">
+                    <td><input type="checkbox" class="item-checkbox"></td>
+                    <td>Vòng tay</td>
+                    <td data-price="1200" class="price">50 </td>
+                    <td><input type="number" class="quantity-input"></td>
+                    <td class="total-price">0 </td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th>TỔNG</th>
+                    <th class="total"></th>
+                </tr>
+            </thead>
+        
+    </div>
+
+    <script src="../js/sell.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <title>REGISTER</title>
+  </head>
+  <body>
+    <div class="registration-form">
+      <h1>Đăng ký</h1>
+      <form>
+        <label for="student-id">Mã sinh viên:</label>
+        <input type="text" id="student-id" name="studentId" required />
+        
+        <label for="full-name">Họ và tên:</label>
+        <input type="text" id="full-name" name="fullName" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label>Giới tính:</label>
+        <div class="gender-options">
+          <label><input type="radio" name="gender" value="nam" /> Nam</label>
+          <label><input type="radio" name="gender" value="nu" /> Nữ</label>
+        </div>
+
+        <label>Sở thích:</label>
+        <div class="interests">
+          <label
+            ><input type="checkbox" name="interests" value="doc-sach" /> Đọc
+            sách</label
+          >
+          <label
+            ><input type="checkbox" name="interests" value="du-lich" /> Du
+            lịch</label
+          >
+          <label
+            ><input type="checkbox" name="interests" value="am-nhac" /> Âm
+            nhạc</label
+          >
+          <label
+            ><input type="checkbox" name="interests" value="am-thuc" /> Ẩm
+            thực</label
+          >
+          <label
+            ><input type="checkbox" name="interests" value="khac" /> Khác</label
+          >
+        </div>
+
+        <label for="nationality">Quốc tịch:</label>
+        <select id="nationality" name="nationality">
+          <option value="vietnam">Việt Nam</option>
+          <option value="us">United States</option>
+          <option value="uk">United Kingdom</option>
+          <option value="Saint LUCIA">Saint LUCIA</option>
+          <option value="Saint Vincent">
+            Saint Vincent and the Grenadines
+          </option>
+          <option value="Samoa">Samoa</option>
+          <option value="San Marino">San Marino</option>
+          <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+          <option value="Saudi Arabia">Saudi Arabia</option>
+          <option value="Senegal">Senegal</option>
+          <option value="Seychelles">Seychelles</option>
+          <option value="Sierra">Sierra Leone</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Slovakia">Slovakia (Slovak Republic)</option>
+        </select>
+
+        <label for="note">Ghi chú:</label>
+        <textarea id="note" name="note"></textarea>
+
+        <button type="submit">
+            <a href="./index.html">Đăng ký</a>
+        </button>
+
+      </form>
+    </div>
+
+    <script src="../js/register.js"></script>
+  </body>
+</html>

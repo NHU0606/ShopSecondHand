@@ -1,0 +1,40 @@
+.container-body {
+    width: 600px;
+    margin: auto;
+    background-color: darkgray;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border:  1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+caption {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+button {
+    width: 60px;
+    height: 25px;
+}
+
+.select-price{
+    margin-bottom: 15px;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display:block;
+}
